@@ -69,3 +69,29 @@ Non-causal musical source separation with deep neural networks has achieved impr
 For hearing aids and live music, a low-latency, causal approaches are needed. 
 Furthermore, hearing aid processing power is limited, which is challenging for very large models. 
 The paper will outline the opportunities and challenges of using source separation to improve accessibility.
+
+# Introduction
+
+The World Health Organization (WHO) estimates that 430 million people worldwide experience some level of hearing disability [@WHO].
+It is projected that by 2050, this number will increase to 700 million, which means 1 in 10 people will be affected.
+In the European region alone, 20% of the population, equivalent to 190 million people, has some form of disabling hearing loss [@WHO_europe].
+
+Hearing loss can make it challenging to discern dialogue and lyrics, and sounds tend to be less impactful due to the loss of high frequencies.
+The challenges associated with hearing loss extend beyond a mere reduction in sound volume.
+In the context of complex auditory scenes in television dramas and the complex nature of musical compositions,
+simply increasing the volume will not necessarily enhance the accessibility of the broadcast or the music.
+
+The most common treatment for hearing loss is the use of hearing aids.
+However, only 40% of individuals who could benefit from them actually use them regularly.
+This is partly due to the perception that hearing aids do not perform well [@Kochkin2002, @kochkin2010marketrak, @knudsen14nielsen, @meyer2012factors].
+
+Historically, hearing aids have primarily focused on improving speech communication.
+While manufacturers have been developing programs for music listening,
+a significant 68% of users report experiencing difficulty when listening to music through their hearing aids ds [@Greasley2020].
+
+# Accessible Broadcast
+
+In broadcast scenarios, it is common to provide closed captions to assist individuals with hearing loss in understanding the speech.
+However, increasing intelligibility does not necessarily result in a better understanding of the content.
+As pointed out by Shirley et al. [@shirley2019personalization], in the movie "Jaws", the absence of its iconic music strips away all the tension,
+and the scene simply depicts a person swimming in the sea.
